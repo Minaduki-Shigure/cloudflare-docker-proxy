@@ -14,7 +14,7 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 name = "cloudflare-docker-proxy"
 routes = [
   { pattern = "docker.minaduki.dev", custom_domain = true },
-  { pattern = "quey.minaduki.dev", custom_domain = true },
+  { pattern = "quay.minaduki.dev", custom_domain = true },
   { pattern = "gcr.minaduki.dev", custom_domain = true },
   { pattern = "k8s-gcr.minaduki.dev", custom_domain = true },
   { pattern = "k8s.minaduki.dev", custom_domain = true },
